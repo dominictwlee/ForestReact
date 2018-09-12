@@ -491,7 +491,7 @@ function runEvaluator(uid, params){
 const evaluators = {}
 
 function setEvaluator(name, evaluator){
-  evaluators[name]=evaluator;
+  evaluators[name] = evaluator;
 }
 
 export default {

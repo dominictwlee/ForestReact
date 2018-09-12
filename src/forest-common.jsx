@@ -95,7 +95,7 @@ class ForestCommon extends Component {
     return core.spawnObject(o);
   }
 
-  static setEvaluator(name, evaluator){
+  static setEvaluator(evaluator, name = evaluator.name){
     return core.setEvaluator(name, evaluator)
   }
 
